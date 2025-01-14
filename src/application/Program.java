@@ -29,7 +29,6 @@ public class Program {
 		System.out.print("Enter amount for withdraw: ");
 		double amount = sc.nextDouble();
 		
-		
 		try {
 			acc.withdraw(amount);
 			System.out.printf("New balance: %.2f%n", acc.getBalance());
